@@ -24,7 +24,7 @@ namespace XRMultiplayer.Transcription
         [Header("Configuration")]
         [Header("Gemini Configuration")]
         [SerializeField, Tooltip("Google AI Studio API Key")]
-        private string apiKey = "REDACTED_GEMINI_KEY";
+        private string apiKey = "";
 
         [SerializeField, Tooltip("Seconds of audio to buffer before sending")]
         private float audioBufferSeconds = 30f; // Increased to allow 15s batches (Gemini Free Tier)
@@ -92,6 +92,11 @@ namespace XRMultiplayer.Transcription
             }
 
             // Set API key if configured
+            if (string.IsNullOrEmpty(apiKey))
+            {
+                apiKey = SecureConfig.GeminiApiKey;
+            }
+
             if (!string.IsNullOrEmpty(apiKey))
             {
                 geminiService.SetApiKey(apiKey);

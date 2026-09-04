@@ -42,7 +42,7 @@ namespace XRMultiplayer.Transcription
 
         [Header("Gemini Configuration")]
         [SerializeField, Tooltip("Google AI Studio API Key")]
-        private string apiKey = "REDACTED_GEMINI_KEY";
+        private string apiKey = "";
 
         [Header("UI Settings")]
         [SerializeField] private bool createUIOnStart = true;
@@ -102,6 +102,11 @@ namespace XRMultiplayer.Transcription
             transcriptionManager = GetComponent<TranscriptionManager>();
 
             // Set API key if provided here
+            if (string.IsNullOrEmpty(apiKey))
+            {
+                apiKey = SecureConfig.GeminiApiKey;
+            }
+
             if (geminiService != null && !string.IsNullOrEmpty(apiKey))
             {
                 geminiService.SetApiKey(apiKey);

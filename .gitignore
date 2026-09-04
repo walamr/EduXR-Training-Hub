@@ -27,3 +27,8 @@ MemoryCaptures/
 *.aab
 *.zip
 vr_BackUpThisFolder_ButDontShipItWithYourGame/
+
+# Secrets and Credentials
+[Aa]ssets/StreamingAssets/secrets.json
+[Aa]ssets/StreamingAssets/secrets.json.meta
+secrets.json

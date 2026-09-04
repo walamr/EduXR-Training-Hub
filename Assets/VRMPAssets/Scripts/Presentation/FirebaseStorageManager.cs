@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.Networking;
+using XRMultiplayer;
 
 namespace XRMultiplayer.Presentation
 {
@@ -16,7 +17,7 @@ namespace XRMultiplayer.Presentation
         public static FirebaseStorageManager Instance { get; private set; }
 
         [Header("Auth Config")]
-        [SerializeField] private string apiKey = "REDACTED_FIREBASE_KEY"; // From google-services.json
+        [SerializeField] private string apiKey = ""; // Configured via SecureConfig or Inspector
 
         [Header("Firebase Config")]
         [SerializeField] private string databaseUrl = "https://xr-meeting-hub-default-rtdb.europe-west1.firebasedatabase.app";
@@ -129,6 +130,11 @@ namespace XRMultiplayer.Presentation
             if (transform.parent != null)
                 transform.SetParent(null);
             DontDestroyOnLoad(gameObject);
+
+            if (string.IsNullOrEmpty(apiKey))
+            {
+                apiKey = SecureConfig.FirebaseApiKey;
+            }
         }
 
         private void Start()

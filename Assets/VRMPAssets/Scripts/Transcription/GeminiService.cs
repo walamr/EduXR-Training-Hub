@@ -22,7 +22,7 @@ namespace XRMultiplayer.Transcription
         #region Configuration
         [Header("Gemini Configuration")]
         [SerializeField, Tooltip("Google AI Studio API Key")]
-        private string apiKey = "REDACTED_GEMINI_KEY";
+        private string apiKey = "";
 
         [SerializeField, Tooltip("Model Name")]
         private string modelVersion = "gemini-flash-latest"; // Stable alias for current Flash model
@@ -79,6 +79,11 @@ namespace XRMultiplayer.Transcription
             Instance = this;
             
             activeModel = modelVersion;
+
+            if (string.IsNullOrEmpty(apiKey))
+            {
+                apiKey = SecureConfig.GeminiApiKey;
+            }
 
             // Log config (no forced override)
             Utils.Log($"{k_DebugPrepend}Config: Model={modelVersion}, Fallback={fallbackModel}, Endpoint=v1beta, Timeout={requestTimeoutSeconds}s");
