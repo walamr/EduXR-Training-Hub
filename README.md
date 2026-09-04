@@ -700,7 +700,9 @@ A formal evaluation session was conducted with a representative user from the ed
 
 A complete overview of EduXR Training Hub, showcasing the core platform capabilities, educational use cases, and collaborative XR environment.
 
-[![Final Project Demo](https://img.youtube.com/vi/GkPlSb10K4E/maxresdefault.jpg)](https://youtu.be/GkPlSb10K4E)
+<a href="https://youtu.be/GkPlSb10K4E">
+  <img src="https://img.youtube.com/vi/GkPlSb10K4E/maxresdefault.jpg" alt="Final Project Demo" width="100%" />
+</a>
 
 ▶️ [Watch the Final Demonstration](https://youtu.be/GkPlSb10K4E)
 
@@ -710,7 +712,9 @@ A complete overview of EduXR Training Hub, showcasing the core platform capabili
 
 A first-person immersive experience recorded directly from the VR headset, demonstrating how educators interact within the platform — avatar movement, spatial collaboration, and XR interactions.
 
-[![VR Headset Demo](https://img.youtube.com/vi/D-fzvkf6aRM/hqdefault.jpg)](https://youtu.be/D-fzvkf6aRM)
+<a href="https://youtu.be/D-fzvkf6aRM">
+  <img src="https://img.youtube.com/vi/D-fzvkf6aRM/sddefault.jpg" alt="VR Headset Demo" width="100%" />
+</a>
 
 ▶️ [Watch the VR Headset Experience](https://youtu.be/D-fzvkf6aRM)
 
@@ -720,7 +724,9 @@ A first-person immersive experience recorded directly from the VR headset, demon
 
 Detailed demonstration of the platform's key features, workflows, and user interactions — including HoloBoard, AI transcription, podium mode, breakout rooms, and analytics.
 
-[![Feature Walkthrough](https://img.youtube.com/vi/EYQ8QPa6jno/maxresdefault.jpg)](https://youtu.be/EYQ8QPa6jno)
+<a href="https://youtu.be/EYQ8QPa6jno">
+  <img src="https://img.youtube.com/vi/EYQ8QPa6jno/maxresdefault.jpg" alt="Feature Walkthrough" width="100%" />
+</a>
 
 ▶️ [Watch the Feature Walkthrough](https://youtu.be/EYQ8QPa6jno)
 
