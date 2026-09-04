@@ -710,7 +710,7 @@ A complete overview of EduXR Training Hub, showcasing the core platform capabili
 
 A first-person immersive experience recorded directly from the VR headset, demonstrating how educators interact within the platform — avatar movement, spatial collaboration, and XR interactions.
 
-[![VR Headset Demo](https://img.youtube.com/vi/D-fzvkf6aRM/maxresdefault.jpg)](https://youtu.be/D-fzvkf6aRM)
+[![VR Headset Demo](https://img.youtube.com/vi/D-fzvkf6aRM/hqdefault.jpg)](https://youtu.be/D-fzvkf6aRM)
 
 ▶️ [Watch the VR Headset Experience](https://youtu.be/D-fzvkf6aRM)
 
