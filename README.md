@@ -44,8 +44,7 @@
 - [My Role & Contributions](#my-role--contributions)
 - [Technical Challenges & Solutions](#technical-challenges--solutions)
 - [Stakeholder Validation](#stakeholder-validation)
-- [Screenshots](#screenshots)
-- [Demo](#demo)
+- [Project Demonstrations](#project-demonstrations)
 - [Installation](#installation)
 - [Project Structure](#project-structure)
 - [Future Roadmap](#future-roadmap)
@@ -695,35 +694,35 @@ A formal evaluation session was conducted with a representative user from the ed
 
 ---
 
-## Screenshots
+## Project Demonstrations
 
-> *Screenshots will be added to showcase the VR environment, collaboration features, and analytics.*
+### Final Project Demonstration
 
-| View | Description |
-|:---|:---|
-| **Training Room** | Main VR environment with presentation screen, seating, and participant avatars |
-| **HoloBoard** | Holographic whiteboard with sticky notes, drawings, and graph nodes |
-| **Podium Mode** | Host governance view with seated participants and hand-raising queue |
-| **People Analytics** | Name tag indicators showing speaking %, gaze attention, sentiment |
-| **Breakout Room** | Isolated private sub-room for small group collaboration |
-| **AI Transcript** | Live multilingual transcription panel with RTL Arabic support |
-| **Recording Library** | Session browser with category filtering and version selection |
-| **Voting System** | In-session poll with real-time HUD results |
+A complete overview of EduXR Training Hub, showcasing the core platform capabilities, educational use cases, and collaborative XR environment.
 
-<!-- Add screenshots:
-![Training Room](Assets/Screenshots/training_room.png)
-![HoloBoard](Assets/Screenshots/holoboard.png)
--->
+[![Final Project Demo](https://img.youtube.com/vi/GkPlSb10K4E/maxresdefault.jpg)](https://youtu.be/GkPlSb10K4E)
+
+▶️ [Watch the Final Demonstration](https://youtu.be/GkPlSb10K4E)
 
 ---
 
-## Demo
+### VR Headset Demonstration
 
-> *A walkthrough video demonstrating the full platform experience — from authentication through a complete VR training session — will be linked here.*
+A first-person immersive experience recorded directly from the VR headset, demonstrating how educators interact within the platform — avatar movement, spatial collaboration, and XR interactions.
 
-<!-- 
-[![EduXR Training Hub Demo](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://youtu.be/VIDEO_ID)
--->
+[![VR Headset Demo](https://img.youtube.com/vi/D-fzvkf6aRM/maxresdefault.jpg)](https://youtu.be/D-fzvkf6aRM)
+
+▶️ [Watch the VR Headset Experience](https://youtu.be/D-fzvkf6aRM)
+
+---
+
+### Feature Walkthrough
+
+Detailed demonstration of the platform's key features, workflows, and user interactions — including HoloBoard, AI transcription, podium mode, breakout rooms, and analytics.
+
+[![Feature Walkthrough](https://img.youtube.com/vi/EYQ8QPa6jno/maxresdefault.jpg)](https://youtu.be/EYQ8QPa6jno)
+
+▶️ [Watch the Feature Walkthrough](https://youtu.be/EYQ8QPa6jno)
 
 ---
 
