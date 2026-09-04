@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="!ttps://raw.githubusercontent.com/walamr/EduXR-Training-Hub/main/Assets/VRMPAssets/logo.png" alt="EduXR Training Hub" width="140" />
+  <img src="Assets/VRMPAssets/logo.png" alt="EduXR Training Hub" width="140" />
 </p>
 
 <h1 align="center">EduXR Training Hub</h1>
